@@ -1,64 +1,37 @@
-# laravel-package-installer README
+# Laravel Package Installer for VSCode
+
+This VSCode extension allows you to search and install Laravel packages from within your editor, making it easy to manage dependencies for your Laravel projects. It allows users to search both by package name and description, providing a seamless experience to find and install packages quickly.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+- **Search Laravel Packages**: Search packages by their name or description using the integrated search.
+- **Predefined Suggestions**: Comes with predefined package suggestions, or you can search for additional packages from the Packagist repository.
+- **One-click Installation**: Install selected packages with the command `composer require <package-name>`.
+- **Real-time Filtering**: As you type, the search dynamically filters packages based on both their name and description.
+- **Easy Integration**: Simple integration with your existing Laravel projects for quick setup.
 
-For example if there is an image subfolder under your extension project workspace:
+## Installation
 
-\!\[feature X\]\(assets/installer.png\)
-\!\[feature X\]\(assets/search-package.png\)
+1. Open **VSCode**.
+2. Press `Ctrl+Shift+X` (`Cmd+Shift+X` on macOS) to open the **Extensions** view.
+3. Search for `Laravel Package Installer` and click **Install**.
 
-## Extension Settings
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+### Steps:
+Laravel Package Installer for VSCode
 
-For example:
+This VSCode extension allows you to search and install Laravel packages from within your editor.
 
-This extension contributes the following settings:
+## How to Use
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+### Step 1: Open Command Palette
 
-## Known Issues
+To open the **Command Palette**, press `Ctrl+Shift+P` (`Cmd+Shift+P` on macOS). 
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+![Open Command Palette](src/assets/installer.png)
 
-## Release Notes
+### Step 2: Search for Packages
 
-Users appreciate release notes as you update your extension.
+Once the **QuickPick** interface is open, you can search for a package by its name or description. Select the package you want to install, and it will be automatically added to your Laravel project.
 
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Following extension guidelines
-
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+![Search for Packages](src/assets/search-package.png)
