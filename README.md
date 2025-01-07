@@ -28,10 +28,10 @@ This VSCode extension allows you to search and install Laravel packages from wit
 
 To open the **Command Palette**, press `Ctrl+Shift+P` (`Cmd+Shift+P` on macOS). 
 
-![Open Command Palette](src/assets/installer.png)
+![Open Command Palette](/src/assets/installer.png)
 
 ### Step 2: Search for Packages
 
 Once the **QuickPick** interface is open, you can search for a package by its name or description. Select the package you want to install, and it will be automatically added to your Laravel project.
 
-![Search for Packages](src/assets/search-package.png)
+![Search for Packages](/src/assets/search-package.png)
